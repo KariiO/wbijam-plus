@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Wbijam Plus",
+  "description": "Extra features for \"Wbijam\" anime website that should enhance the experience and reduce unnecessary actions that distract user",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/episode-view.js"],
+      "matches": [
+        "https://*.wbijam.pl/*"
+      ]
+    },
+    {
+      "js": ["scripts/player-view.js"],
+      "matches": [
+        "https://*.wbijam.pl/odtwarzacz*"
+      ]
+    }
+  ]
+}
