@@ -3,6 +3,13 @@
   "name": "Wbijam Plus",
   "description": "Extra features for \"Wbijam\" anime website that should enhance the experience and reduce unnecessary actions that distract user",
   "version": "1.0",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "js": ["scripts/episode-view.js"],
