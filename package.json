@@ -1,0 +1,18 @@
+{
+  "name": "wbijam-plus",
+  "version": "1.0.0",
+  "description": "Extra features for \"Wbijam\" anime website that should enhance the experience and reduce unnecessary actions that distract user",
+  "scripts": {
+    "archive": "tar -a -c -f package.zip manifest.json icon*.png scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KariiO/wbijam-plus.git"
+  },
+  "author": "KariiO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KariiO/wbijam-plus/issues"
+  },
+  "homepage": "https://github.com/KariiO/wbijam-plus#readme"
+}
