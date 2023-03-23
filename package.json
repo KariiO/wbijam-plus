@@ -1,9 +1,9 @@
 {
   "name": "wbijam-plus",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "Extra features for \"Wbijam\" anime website that should enhance the experience and reduce unnecessary actions that distract user",
   "scripts": {
-    "archive": "tar -a -c -f package.zip manifest.json icon*.png scripts"
+    "archive": "tar -a -c -f package.zip manifest.json icons scripts"
   },
   "repository": {
     "type": "git",
